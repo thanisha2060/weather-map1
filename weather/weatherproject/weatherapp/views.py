@@ -11,12 +11,12 @@ def home(request):
     else:
          city = 'udupi'     
     
-    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=c976ef53f0557100538749d461b5d000'
+    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid='
     PARAMS = {'units':'metric'}
 
-    API_KEY =  'AIzaSyBRqEplOQDLiXyp4GHHnvbhBkJAQmRqgzY'
+    API_KEY =  ''
 
-    SEARCH_ENGINE_ID = '217312e2d63c24351'
+    SEARCH_ENGINE_ID = ''
      
     query = city + " 1920x1080"
     page = 1
